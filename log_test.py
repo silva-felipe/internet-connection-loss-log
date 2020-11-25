@@ -8,7 +8,7 @@ log = []
 
 def internet():
     global log
-    url = 'https://uol.com.br/'  # url to be tested
+    url = 'https://www.google.com/'  # url to be tested
     timeout = 5
     usr = 'xxxx@gmail.com'  # your email address
     pwd = 'xxxxxxxxxx'  # your email pwd
