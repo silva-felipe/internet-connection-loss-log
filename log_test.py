@@ -10,8 +10,8 @@ def internet():
     global log
     url = 'https://uol.com.br/'  # url to be tested
     timeout = 5
-    usr = 's.felipe.almeida@gmail.com'  # your email address
-    pwd = 'omega000'  # your email pwd
+    usr = 'xxxx@gmail.com'  # your email address
+    pwd = 'xxxxxxxxxx'  # your email pwd
     data = datetime.today().strftime('%d/%m/%Y - %H:%M:%S')
     try:
         connection = requests.get(url, timeout=timeout)
